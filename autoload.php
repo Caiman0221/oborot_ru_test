@@ -2,8 +2,7 @@
 
     $autoload = [
         '' => ['/config.php'],
-        '/engine' => ['/tree.php', '/apple_tree.php', '/pear_tree.php', '/apple.php', '/pear.php', '/robot.php', '/test.php'],
-        '/tests' => ['/tree.php']
+        '/engine' => ['/tree.php', '/apple_tree.php', '/pear_tree.php', '/apple.php', '/pear.php', '/robot.php']
     ];
 
     foreach ($autoload as $dir => $files) {
